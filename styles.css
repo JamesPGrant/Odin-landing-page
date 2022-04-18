@@ -1,0 +1,177 @@
+/*
+*{
+    border:2px solid pink;
+}
+*/
+
+body{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.rightlogo{
+    font-size:24px;
+    color:#f9faf8;
+    display:flex;
+    gap:10px;
+    align-self:center;
+}
+
+.leftlinks{
+    display:flex;
+    gap:20px;
+}
+
+.header{
+    background-color:black;
+    padding:10px;
+    margin:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+li{
+    list-style-type:none;
+}
+
+.dentist{
+    padding:20px;
+    gap:20px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+
+.bwteeth{
+    display:flex;
+}
+
+.firstsection{
+    background-color:rgb(12, 12, 12);
+    color:white;
+
+}
+
+.firstsection button{
+    background-color:yellow;
+    color:black;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+.header2{
+    background-color:#101111;
+    display:flex;
+    justify-content:center;
+}
+
+.clients{
+    font-size: 32px;
+    font-weight:bold;
+    color:white;
+}
+
+.dentist img{
+    border-radius:25px;
+}
+.secondsection{
+    background-color:#101111;
+    padding:50px;
+}
+
+.customercontainer{
+    background-color:#101111;
+    display:flex;
+    flex-direction:wrap;
+
+}
+
+.customerone,
+.customertwo,
+.customerthree,
+.customerfour{
+    color:white;
+    /*border:2px solid white;*/
+    border-radius: 25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.customerone img,
+.customertwo img,
+.customerthree img,
+.customerfour img{
+    border-radius:25px;
+}
+
+.customerone p, 
+.customertwo p, 
+.customerthree p, 
+.customerfour p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    display:flex;
+    justify-content:center;
+}
+
+.famousperson{
+    font-size:24px;
+    font-weight:bold;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.thirdsection{
+    padding:20px;
+    background-color:#28282b;
+    color:white;
+}
+
+.fourthsectionbackground{
+    background-color:#343438;
+}
+
+.fourthsection{
+    background-color:yellow;
+    border:2px solid yellow;
+    border-radius: 25px;
+    margin: 50px;
+    padding:30px;
+}
+
+.header3{
+    font-size:26px;
+    display:flex;
+}
+
+.subsection{
+    display:flex;
+    gap: 20px;
+}
+
+.subsection button{
+    background-color:#101111;
+    color:white;
+    width:100px;
+    margin:0px;
+    padding:0px;
+}
+
+.fifthsection{
+    background-color:rgb(59, 55, 55);
+    color:white;
+    font-size: 20px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
